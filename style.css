@@ -2,16 +2,31 @@
 body{
     background-color: aqua;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 100px;
+    width: 350x;
+    font-size: 36px;
+    padding: 16px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 #container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    width: 950px;
+    background-color: green;
+    padding: 5px;
 }
 
 .pixel{
-    height: 50px;
-    width: 50px;
     background: white;
 }
 
